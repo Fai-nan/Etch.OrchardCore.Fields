@@ -84,7 +84,7 @@ export default Vue.extend({
     template: `<div class="card">
         <img :src="url" class="card-img-top" alt="" />
         <div class="card-body flex-column">
-            <p class="small">{{ activeName }} {{ isOnlySmallImage }}</p>
+            <p class="small">{{ activeName }}</p>
 
             <div class="d-flex flex-row flex-wrap mb-1">
                 <button 
